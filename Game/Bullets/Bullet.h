@@ -1,6 +1,6 @@
 #pragma once
 #include "../../Engine/Gameplay/Gameobject.h"
-
+//!реярнбши хцпнбни назейр
 class Bullet :
     public Gameobject
 {

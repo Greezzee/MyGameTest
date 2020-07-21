@@ -58,11 +58,11 @@ void GraphicManager::Exit()
 void GraphicManager::Draw(DrawData& data, Views view_id)
 {
 	SetView(data, view_id);
-	sprites[data.textID].setPosition(sf::Vector2f(data.position.x, data.position.y));
-	sprites[data.textID].setRotation(data.rotation);
-	sprites[data.textID].setOrigin(sf::Vector2f(data.origin.x, data.origin.y));
-	sprites[data.textID].setScale(sf::Vector2f(data.scale.x, data.scale.y));
-	to_draw[data.layer].push_back(sprites[data.textID]);
+	sprites[data.spriteID].setPosition(sf::Vector2f(data.position.x, data.position.y));
+	sprites[data.spriteID].setRotation(data.rotation);
+	sprites[data.spriteID].setOrigin(sf::Vector2f(data.origin.x, data.origin.y));
+	sprites[data.spriteID].setScale(sf::Vector2f(data.scale.x, data.scale.y));
+	to_draw[data.layer].push_back(sprites[data.spriteID]);
 	
 }
 

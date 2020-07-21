@@ -1,7 +1,7 @@
 #pragma once
 #include "../../Engine/Gameplay/Gamefield.h"
 #include "../../Engine/Control/InputManager.h"
-
+//!реярнбши хцпнбни назейр
 enum PlayerType
 {
     LeftPlayer, RightPlayer

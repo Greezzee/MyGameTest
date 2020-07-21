@@ -40,7 +40,7 @@ void Bullet::Draw()
 	data.position = _pos;
 	data.rotation = angle;
 	data.scale = { 2, 2 };
-	data.textID = Sprites::TEST_BULLET;
+	data.spriteID = Sprites::TEST_BULLET;
 	GraphicManager::Draw(data, Views::BASIC);
 }
 

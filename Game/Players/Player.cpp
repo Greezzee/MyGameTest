@@ -81,7 +81,7 @@ void Player::Draw()
 	data.position = _pos;
 	data.rotation = 0;
 	data.scale = 2 * Vector2F(_basic_direction.x, 1);
-	data.textID = Sprites::TEST_SPRITE;
+	data.spriteID = Sprites::TEST_SPRITE;
 	GraphicManager::Draw(data, Views::BASIC);
 }
 

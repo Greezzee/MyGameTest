@@ -1,5 +1,6 @@
 #pragma once
 #include "Bullet.h"
+//!реярнбши хцпнбни назейр
 class BulletB :
     public Bullet
 {

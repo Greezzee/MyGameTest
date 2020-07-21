@@ -15,7 +15,7 @@ void CharacterChooseScene::Init()
 
 void CharacterChooseScene::Update()
 {
-	//printf("%d\n", counter);
+	printf("%d\n", counter);
 	counter++;
 	if (counter == 600) {
 		SceneManager::CloseScene(this);

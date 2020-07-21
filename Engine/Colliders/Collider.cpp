@@ -1,7 +1,6 @@
 #include "../Colliders/Collider.h"
 #include <cmath>
 
-const unsigned COLLIDE_ITERATIONS = 16;
 const float PI = 3.1415926f;
 float sqr(float x) {
 	return x * x;
