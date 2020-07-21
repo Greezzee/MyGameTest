@@ -1,6 +1,6 @@
 #pragma once
 #include "GraphicManager.h"
-#include "TimeManager.h"
+#include "../Time/TimeManager.h"
 sf::RenderWindow GraphicManager::window;
 std::vector<sf::Sprite> GraphicManager::sprites;
 std::vector<std::list<sf::Sprite>> GraphicManager::to_draw;
@@ -21,8 +21,8 @@ void GraphicManager::Init()
 	views.resize(VIEWS_COUNT);
 	views[Views::BASIC] = { {1600, 900}, {1600, 900}, {0, 0} };
 	views[Views::TEST] = { {1600, 900}, {800, 450}, {100, 100} };
-	textures[Sprites::TEST_SPRITE].loadFromFile("mint01.png");
-	textures[Sprites::TEST_BULLET].loadFromFile("mintBULLET01.png");
+	textures[Sprites::TEST_SPRITE].loadFromFile("Sprites/mint01.png");
+	textures[Sprites::TEST_BULLET].loadFromFile("Sprites/mintBULLET01.png");
 	for (int i = 0; i < SPRITES_COUNT; i++) {
 		sprites[i].setTexture(textures[i]);
 	}

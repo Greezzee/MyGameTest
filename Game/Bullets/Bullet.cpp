@@ -1,9 +1,9 @@
-#include "Bullet.h"
-#include "Player.h"
-#include "GraphicManager.h"
-#include "InputManager.h"
-#include "TimeManager.h"
-#include "Gamefield.h"
+#include "../Bullets/Bullet.h"
+#include "../Players/Player.h"
+#include "../../Engine/Graphics/GraphicManager.h"
+#include "../../Engine/Control/InputManager.h"
+#include "../../Engine/Time/TimeManager.h"
+#include "../../Engine/Gameplay/Gamefield.h"
 #include <cmath>
 #include <stdio.h>
 void Bullet::Init(Gameobject* owner)

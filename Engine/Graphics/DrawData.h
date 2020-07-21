@@ -1,5 +1,5 @@
 #pragma once
-#include "Coordinate.h"
+#include "../Utility/Coordinate.h"
 
 struct View
 {

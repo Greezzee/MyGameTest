@@ -1,6 +1,6 @@
 #include "BulletB.h"
-#include "TimeManager.h"
-#include "Gamefield.h"
+#include "../../Engine/Time/TimeManager.h"
+#include "../../Engine/Gameplay/Gamefield.h"
 #include <cmath>
 void BulletB::Init(Gameobject* owner, float angle)
 {

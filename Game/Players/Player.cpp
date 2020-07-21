@@ -1,10 +1,10 @@
 #include "Player.h"
-#include "Bullet.h"
-#include "BulletA.h"
-#include "GraphicManager.h"
-#include "InputManager.h"
-#include "TimeManager.h"
-#include "Gamefield.h"
+#include "../Bullets/Bullet.h"
+#include "../Bullets/BulletA.h"
+#include "../../Engine/Graphics/GraphicManager.h"
+#include "../../Engine/Control/InputManager.h"
+#include "../../Engine/Time/TimeManager.h"
+#include "../../Engine/Gameplay/Gamefield.h"
 
 #include <stdio.h>
 void Player::Init(Gameobject* owner)

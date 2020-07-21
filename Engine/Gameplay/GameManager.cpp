@@ -1,9 +1,9 @@
 #pragma once
 #include "GameManager.h"
-#include "GraphicManager.h"
-#include "SceneManager.h"
-#include "TimeManager.h"
-#include "InputManager.h"
+#include "../Graphics/GraphicManager.h"
+#include "../Scene managment/SceneManager.h"
+#include "../Time/TimeManager.h"
+#include "../Control/InputManager.h"
 #include <stdio.h>
 
 bool GameManager::is_exit;

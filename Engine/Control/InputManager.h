@@ -2,7 +2,7 @@
 #include <vector>
 #include <SFML/Window/Keyboard.hpp>
 #include <SFML/Window/Mouse.hpp>
-#include "Coordinate.h"
+#include "../Utility/Coordinate.h"
 
 const unsigned KeysCount = 12;
 enum KeyboardKey {

@@ -1,7 +1,6 @@
 #pragma once
-#include "Scene.h"
-#include "Coordinate.h"
-#include "Gamefield.h"
+#include "../../Engine/Scene managment/Scene.h"
+#include "../../Engine/Gameplay/Gamefield.h"
 class GameplayScene : public Scene
 {
 public:

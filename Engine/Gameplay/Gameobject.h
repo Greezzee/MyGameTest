@@ -1,7 +1,7 @@
 #pragma once
 #include <string>
 
-#include "Coordinate.h"
+#include "../Utility/Coordinate.h"
 class Gamefield;
 
 class Gameobject

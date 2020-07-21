@@ -1,10 +1,10 @@
 #pragma once
 #include <stdio.h>
-#include "SceneManager.h"
 #include "GameplayScene.h"
-#include "GraphicManager.h"
-#include "TimeManager.h"
-#include "InputManager.h"
+#include "../../Engine/Time/TimeManager.h"
+#include "../../Engine/Control/InputManager.h"
+#include "../../Engine/Scene managment/SceneManager.h"
+#include "../../Engine/Graphics/GraphicManager.h"
 
 GameplayScene::GameplayScene(){}
 

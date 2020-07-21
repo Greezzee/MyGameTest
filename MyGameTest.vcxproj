@@ -18,6 +18,50 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\Colliders\Collider.cpp" />
+    <ClCompile Include="Engine\Control\InputManager.cpp" />
+    <ClCompile Include="Engine\Gameplay\Gamefield.cpp" />
+    <ClCompile Include="Engine\Gameplay\GameManager.cpp" />
+    <ClCompile Include="Engine\Gameplay\Gameobject.cpp" />
+    <ClCompile Include="Engine\Graphics\DrawData.cpp" />
+    <ClCompile Include="Engine\Graphics\GraphicManager.cpp" />
+    <ClCompile Include="Engine\Scene managment\Scene.cpp" />
+    <ClCompile Include="Engine\Scene managment\SceneManager.cpp" />
+    <ClCompile Include="Engine\Start.cpp" />
+    <ClCompile Include="Engine\Time\TimeManager.cpp" />
+    <ClCompile Include="Engine\Utility\Coordinate.cpp" />
+    <ClCompile Include="Game\Bullets\Bullet.cpp" />
+    <ClCompile Include="Game\Bullets\BulletA.cpp" />
+    <ClCompile Include="Game\Bullets\BulletB.cpp" />
+    <ClCompile Include="Game\Bullets\BulletC.cpp" />
+    <ClCompile Include="Game\Players\Player.cpp" />
+    <ClCompile Include="Scenes\CharacterChooseScene.cpp" />
+    <ClCompile Include="Scenes\GameplayScene.cpp" />
+    <ClCompile Include="Scenes\MainMenuScene.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Colliders\Collider.h" />
+    <ClInclude Include="Engine\Control\InputManager.h" />
+    <ClInclude Include="Engine\Gameplay\Gamefield.h" />
+    <ClInclude Include="Engine\Gameplay\GameManager.h" />
+    <ClInclude Include="Engine\Gameplay\Gameobject.h" />
+    <ClInclude Include="Engine\Gameplay\ObjectsArray.h" />
+    <ClInclude Include="Engine\Graphics\DrawData.h" />
+    <ClInclude Include="Engine\Graphics\GraphicManager.h" />
+    <ClInclude Include="Engine\Scene managment\Scene.h" />
+    <ClInclude Include="Engine\Scene managment\SceneManager.h" />
+    <ClInclude Include="Engine\Time\TimeManager.h" />
+    <ClInclude Include="Engine\Utility\Coordinate.h" />
+    <ClInclude Include="Game\Bullets\Bullet.h" />
+    <ClInclude Include="Game\Bullets\BulletA.h" />
+    <ClInclude Include="Game\Bullets\BulletB.h" />
+    <ClInclude Include="Game\Bullets\BulletC.h" />
+    <ClInclude Include="Game\Players\Player.h" />
+    <ClInclude Include="Scenes\CharacterChooseScene.h" />
+    <ClInclude Include="Scenes\GameplayScene.h" />
+    <ClInclude Include="Scenes\MainMenuScene.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{3B8B79E3-865A-4735-B584-E77B160B3C6C}</ProjectGuid>
@@ -140,53 +184,6 @@
       <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Bullet.cpp" />
-    <ClCompile Include="BulletA.cpp" />
-    <ClCompile Include="BulletB.cpp" />
-    <ClCompile Include="BulletC.cpp" />
-    <ClCompile Include="CharacterChooseScene.cpp" />
-    <ClCompile Include="Collider.cpp" />
-    <ClCompile Include="Coordinate.cpp" />
-    <ClCompile Include="DrawData.cpp" />
-    <ClCompile Include="Gamefield.cpp" />
-    <ClCompile Include="GameManager.cpp" />
-    <ClCompile Include="Gameobject.cpp" />
-    <ClCompile Include="GameplayScene.cpp" />
-    <ClCompile Include="GraphicManager.cpp" />
-    <ClCompile Include="InputManager.cpp" />
-    <ClCompile Include="MainMenuScene.cpp" />
-    <ClCompile Include="Player.cpp" />
-    <ClCompile Include="Scene.cpp" />
-    <ClCompile Include="SceneManager.cpp" />
-    <ClCompile Include="Start.cpp" />
-    <ClCompile Include="TimeManager.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Bullet.h" />
-    <ClInclude Include="BulletA.h" />
-    <ClInclude Include="BulletB.h" />
-    <ClInclude Include="BulletC.h" />
-    <ClInclude Include="CharacterChooseScene.h" />
-    <ClInclude Include="Collider.h" />
-    <ClInclude Include="Coordinate.h" />
-    <ClInclude Include="DrawData.h" />
-    <ClInclude Include="Gamefield.h" />
-    <ClInclude Include="GameManager.h" />
-    <ClInclude Include="Gameobject.h" />
-    <ClInclude Include="GameplayScene.h" />
-    <ClInclude Include="GraphicManager.h" />
-    <ClInclude Include="InputManager.h" />
-    <ClInclude Include="MainMenuScene.h" />
-    <ClInclude Include="ObjectsArray.h" />
-    <ClInclude Include="Player.h" />
-    <ClInclude Include="Scene.h" />
-    <ClInclude Include="SceneManager.h" />
-    <ClInclude Include="TimeManager.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="TestShader.glsl" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

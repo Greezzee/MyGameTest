@@ -1,8 +1,8 @@
 #pragma once
 #include <stdio.h>
-#include "SceneManager.h"
 #include "CharacterChooseScene.h"
-#include "GraphicManager.h"
+#include "../../Engine/Scene managment/SceneManager.h"
+#include "../../Engine/Graphics/GraphicManager.h"
 
 CharacterChooseScene::CharacterChooseScene() :
 	counter(0) {}

@@ -1,6 +1,6 @@
 #pragma once
-#include "Coordinate.h"
-#include "Gameobject.h"
+#include "../Utility/Coordinate.h"
+#include "../Gameplay/Gameobject.h"
 class Collider
 {
 public:

@@ -1,6 +1,6 @@
 #pragma once
-#include "Gameobject.h"
-#include "InputManager.h"
+#include "../../Engine/Gameplay/Gamefield.h"
+#include "../../Engine/Control/InputManager.h"
 
 enum PlayerType
 {

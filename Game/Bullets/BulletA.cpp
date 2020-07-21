@@ -1,8 +1,8 @@
 #include "BulletA.h"
 #include "BulletB.h"
 #include "BulletC.h"
-#include "TimeManager.h"
-#include "Gamefield.h"
+#include "../../Engine/Time/TimeManager.h"
+#include "../../Engine/Gameplay/Gamefield.h"
 
 void BulletA::Init(Gameobject* owner)
 {

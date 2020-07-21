@@ -1,8 +1,8 @@
 #pragma once
 #include "SceneManager.h"
-#include "MainMenuScene.h"
-#include "CharacterChooseScene.h"
-#include "GameplayScene.h"
+#include "../../Scenes/MainMenuScene.h"
+#include "../../Scenes/CharacterChooseScene.h"
+#include "../../Scenes/GameplayScene.h"
 
 std::vector<Scene*> SceneManager::_current_scenes;
 void SceneManager::OpenScene(Scene* scene)

@@ -1,4 +1,4 @@
-#include "Collider.h"
+#include "../Colliders/Collider.h"
 #include <cmath>
 
 const unsigned COLLIDE_ITERATIONS = 16;

@@ -49,134 +49,135 @@
     <Filter Include="Исходные файлы\Managers">
       <UniqueIdentifier>{1c3328da-0d71-4baa-959d-f56f3de98f5f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Файлы заголовков\Utility">
+      <UniqueIdentifier>{8f006fe5-a5fb-40ac-abc3-d3d7e4aba129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Utility">
+      <UniqueIdentifier>{84bdcc77-a776-428c-b982-4f3c8ac72389}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Start.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="DrawData.cpp">
-      <Filter>Исходные файлы\Graphic</Filter>
-    </ClCompile>
-    <ClCompile Include="GraphicManager.cpp">
-      <Filter>Исходные файлы\Graphic</Filter>
-    </ClCompile>
-    <ClCompile Include="Scene.cpp">
-      <Filter>Исходные файлы\Scene</Filter>
-    </ClCompile>
-    <ClCompile Include="SceneManager.cpp">
-      <Filter>Исходные файлы\Scene</Filter>
-    </ClCompile>
-    <ClCompile Include="GameplayScene.cpp">
-      <Filter>Исходные файлы\Scene</Filter>
-    </ClCompile>
-    <ClCompile Include="CharacterChooseScene.cpp">
-      <Filter>Исходные файлы\Scene</Filter>
-    </ClCompile>
-    <ClCompile Include="MainMenuScene.cpp">
-      <Filter>Исходные файлы\Scene</Filter>
-    </ClCompile>
-    <ClCompile Include="TimeManager.cpp">
-      <Filter>Исходные файлы\Scene</Filter>
-    </ClCompile>
-    <ClCompile Include="Gamefield.cpp">
-      <Filter>Исходные файлы\Gameplay</Filter>
-    </ClCompile>
-    <ClCompile Include="Coordinate.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="Bullet.cpp">
+    <ClCompile Include="Game\Bullets\BulletB.cpp">
       <Filter>Исходные файлы\Gameplay\Gameobjects</Filter>
     </ClCompile>
-    <ClCompile Include="BulletA.cpp">
+    <ClCompile Include="Game\Bullets\BulletC.cpp">
       <Filter>Исходные файлы\Gameplay\Gameobjects</Filter>
     </ClCompile>
-    <ClCompile Include="BulletB.cpp">
+    <ClCompile Include="Game\Bullets\Bullet.cpp">
       <Filter>Исходные файлы\Gameplay\Gameobjects</Filter>
     </ClCompile>
-    <ClCompile Include="Gameobject.cpp">
+    <ClCompile Include="Game\Bullets\BulletA.cpp">
       <Filter>Исходные файлы\Gameplay\Gameobjects</Filter>
     </ClCompile>
-    <ClCompile Include="Player.cpp">
+    <ClCompile Include="Game\Players\Player.cpp">
       <Filter>Исходные файлы\Gameplay\Gameobjects</Filter>
     </ClCompile>
-    <ClCompile Include="GameManager.cpp">
-      <Filter>Исходные файлы\Managers</Filter>
-    </ClCompile>
-    <ClCompile Include="InputManager.cpp">
-      <Filter>Исходные файлы\Managers</Filter>
-    </ClCompile>
-    <ClCompile Include="Collider.cpp">
+    <ClCompile Include="Engine\Colliders\Collider.cpp">
       <Filter>Исходные файлы\Gameplay\Colliders</Filter>
     </ClCompile>
-    <ClCompile Include="BulletC.cpp">
+    <ClCompile Include="Engine\Control\InputManager.cpp">
+      <Filter>Исходные файлы\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Gameplay\Gamefield.cpp">
+      <Filter>Исходные файлы\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Gameplay\GameManager.cpp">
+      <Filter>Исходные файлы\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Gameplay\Gameobject.cpp">
       <Filter>Исходные файлы\Gameplay\Gameobjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\GraphicManager.cpp">
+      <Filter>Исходные файлы\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\DrawData.cpp">
+      <Filter>Исходные файлы\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Scene managment\Scene.cpp">
+      <Filter>Исходные файлы\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Scene managment\SceneManager.cpp">
+      <Filter>Исходные файлы\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Time\TimeManager.cpp">
+      <Filter>Исходные файлы\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Utility\Coordinate.cpp">
+      <Filter>Исходные файлы\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Start.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\GameplayScene.cpp">
+      <Filter>Исходные файлы\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\MainMenuScene.cpp">
+      <Filter>Исходные файлы\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\CharacterChooseScene.cpp">
+      <Filter>Исходные файлы\Scene</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Coordinate.h">
-      <Filter>Файлы заголовков</Filter>
+    <ClInclude Include="Game\Bullets\BulletB.h">
+      <Filter>Файлы заголовков\Gameplay\Gameobjects</Filter>
     </ClInclude>
-    <ClInclude Include="Scene.h">
-      <Filter>Файлы заголовков\Scene</Filter>
+    <ClInclude Include="Game\Bullets\BulletC.h">
+      <Filter>Файлы заголовков\Gameplay\Gameobjects</Filter>
     </ClInclude>
-    <ClInclude Include="SceneManager.h">
-      <Filter>Файлы заголовков\Scene</Filter>
+    <ClInclude Include="Game\Bullets\Bullet.h">
+      <Filter>Файлы заголовков\Gameplay\Gameobjects</Filter>
     </ClInclude>
-    <ClInclude Include="GameplayScene.h">
-      <Filter>Файлы заголовков\Scene</Filter>
+    <ClInclude Include="Game\Bullets\BulletA.h">
+      <Filter>Файлы заголовков\Gameplay\Gameobjects</Filter>
     </ClInclude>
-    <ClInclude Include="DrawData.h">
-      <Filter>Файлы заголовков\Graphics</Filter>
+    <ClInclude Include="Game\Players\Player.h">
+      <Filter>Файлы заголовков\Gameplay\Gameobjects</Filter>
     </ClInclude>
-    <ClInclude Include="GraphicManager.h">
-      <Filter>Файлы заголовков\Graphics</Filter>
-    </ClInclude>
-    <ClInclude Include="CharacterChooseScene.h">
-      <Filter>Файлы заголовков\Scene</Filter>
-    </ClInclude>
-    <ClInclude Include="MainMenuScene.h">
-      <Filter>Файлы заголовков\Scene</Filter>
-    </ClInclude>
-    <ClInclude Include="Gamefield.h">
-      <Filter>Файлы заголовков\Gameplay</Filter>
-    </ClInclude>
-    <ClInclude Include="ObjectsArray.h">
-      <Filter>Файлы заголовков\Gameplay</Filter>
-    </ClInclude>
-    <ClInclude Include="Collider.h">
+    <ClInclude Include="Engine\Colliders\Collider.h">
       <Filter>Файлы заголовков\Gameplay\Colliders</Filter>
     </ClInclude>
-    <ClInclude Include="Bullet.h">
-      <Filter>Файлы заголовков\Gameplay\Gameobjects</Filter>
-    </ClInclude>
-    <ClInclude Include="BulletA.h">
-      <Filter>Файлы заголовков\Gameplay\Gameobjects</Filter>
-    </ClInclude>
-    <ClInclude Include="BulletB.h">
-      <Filter>Файлы заголовков\Gameplay\Gameobjects</Filter>
-    </ClInclude>
-    <ClInclude Include="Gameobject.h">
-      <Filter>Файлы заголовков\Gameplay\Gameobjects</Filter>
-    </ClInclude>
-    <ClInclude Include="Player.h">
-      <Filter>Файлы заголовков\Gameplay\Gameobjects</Filter>
-    </ClInclude>
-    <ClInclude Include="TimeManager.h">
+    <ClInclude Include="Engine\Control\InputManager.h">
       <Filter>Файлы заголовков\Managers</Filter>
     </ClInclude>
-    <ClInclude Include="GameManager.h">
+    <ClInclude Include="Engine\Gameplay\Gamefield.h">
+      <Filter>Файлы заголовков\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Gameplay\GameManager.h">
       <Filter>Файлы заголовков\Managers</Filter>
     </ClInclude>
-    <ClInclude Include="InputManager.h">
-      <Filter>Файлы заголовков\Managers</Filter>
-    </ClInclude>
-    <ClInclude Include="BulletC.h">
+    <ClInclude Include="Engine\Gameplay\Gameobject.h">
       <Filter>Файлы заголовков\Gameplay\Gameobjects</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="TestShader.glsl">
-      <Filter>Файлы ресурсов</Filter>
-    </None>
+    <ClInclude Include="Engine\Gameplay\ObjectsArray.h">
+      <Filter>Файлы заголовков\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\GraphicManager.h">
+      <Filter>Файлы заголовков\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\DrawData.h">
+      <Filter>Файлы заголовков\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Scene managment\Scene.h">
+      <Filter>Файлы заголовков\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Scene managment\SceneManager.h">
+      <Filter>Файлы заголовков\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Time\TimeManager.h">
+      <Filter>Файлы заголовков\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Utility\Coordinate.h">
+      <Filter>Файлы заголовков\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\MainMenuScene.h">
+      <Filter>Файлы заголовков\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\CharacterChooseScene.h">
+      <Filter>Файлы заголовков\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\GameplayScene.h">
+      <Filter>Файлы заголовков\Scene</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

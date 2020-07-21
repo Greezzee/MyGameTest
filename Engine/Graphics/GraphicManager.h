@@ -3,7 +3,7 @@
 #include <vector>
 #include <list>
 #include "DrawData.h"
-#include "Coordinate.h"
+#include "../Utility/Coordinate.h"
 
 const unsigned SPRITES_COUNT = 2;
 enum Sprites {

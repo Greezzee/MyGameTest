@@ -1,9 +1,9 @@
 #pragma once
 #include <stdio.h>
-#include "SceneManager.h"
 #include "MainMenuScene.h"
-#include "GraphicManager.h"
-#include "TimeManager.h"
+#include "../../Engine/Time/TimeManager.h"
+#include "../../Engine/Scene managment/SceneManager.h"
+#include "../../Engine/Graphics/GraphicManager.h"
 
 MainMenuScene::MainMenuScene() :
 	counter(0), started(true) {}

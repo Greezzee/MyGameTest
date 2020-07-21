@@ -1,8 +1,6 @@
 #include <stdlib.h>
 #include "Gamefield.h"
-#include "Player.h"
-#include "Bullet.h"
-#include "Collider.h"
+#include "../../Game/Players/Player.h"
 #include <stdio.h>
 void Gamefield::Init()
 {

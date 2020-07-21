@@ -2,8 +2,8 @@
 
 #include "BulletA.h"
 #include "BulletB.h"
-#include "TimeManager.h"
-#include "Gamefield.h"
+#include "../../Engine/Time/TimeManager.h"
+#include "../../Engine/Gameplay/Gamefield.h"
 
 void BulletC::Init(Gameobject* owner, float angle)
 {
